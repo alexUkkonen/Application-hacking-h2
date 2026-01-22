@@ -4,7 +4,7 @@
 
 ### Broken Access Controll
 
-Broken access control is the most common vounrability. It can basically be defined as being able to acces and/or modify things you shouldn't be able to, wether this is trough going to a certain link or tampering with cookies.
+Broken access control is the 5th most common. It can basically be defined as being able to acces and/or modify things you shouldn't be able to, wether this is trough going to a certain link or tampering with cookies.
 
 ### Find Hidden Web Directories - Fuzz URLs with ffuf
 For your convenience this has been mooved to exercise C
