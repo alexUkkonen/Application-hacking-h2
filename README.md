@@ -82,3 +82,32 @@ We sett the filter to filter out 154 and 6 possible strings apear.
 As you can see we solved both panels.
 <img width="762" height="278" alt="image" src="https://github.com/user-attachments/assets/cd05c23c-2f8f-4f01-b711-68bb80494570" />
 <img width="1922" height="1369" alt="image" src="https://github.com/user-attachments/assets/e0c20870-2c8f-42f3-b8db-6d4a1dc0864b" />
+
+## D)
+
+First we install the virtual enviorment. i did a small oopsie as i did it in the wrong order, but i soon figured it out.
+<img width="1438" height="452" alt="image" src="https://github.com/user-attachments/assets/c007b9fb-f764-41ef-8433-c1b06576176a" />
+
+Next we pip installed the requirements.txt and launched the program. (Make shure you turn of your internet)
+<img width="1365" height="365" alt="image" src="https://github.com/user-attachments/assets/8440198f-ffb9-4e3e-b055-6675032c619b" />
+
+
+<img width="1369" height="406" alt="image" src="https://github.com/user-attachments/assets/e7fbd9b3-ee39-4ff7-9931-166c7853c600" />
+
+<img width="1786" height="385" alt="image" src="https://github.com/user-attachments/assets/a590a241-bcb4-4713-95ec-3ba85f491dee" />
+
+We use ffuf again just like in esercise C to find the availible link. When we try to access it it asks for a password.
+
+I made an account and logged in. This allowed me to access the admin console.
+<img width="2781" height="1644" alt="image" src="https://github.com/user-attachments/assets/0506e34b-e473-486f-ab4f-8e90094e9eff" />
+
+## E)
+
+ShowAllView -> DashboardView
+
+I had to find this using grep -ri "admin-console"
+
+This shows all files beneath the directory where it was used.
+
+The fix was to make the admin consol a Dashboad view as it was accidentally set as a lower permission.
+<img width="2066" height="678" alt="image" src="https://github.com/user-attachments/assets/69fcdea2-a520-4335-b01f-32511232d3aa" />
