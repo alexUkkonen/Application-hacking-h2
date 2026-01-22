@@ -25,6 +25,25 @@ This was more yapping about how to write a report, emphasizing the importance of
 
 The video detailed what SQL injection is and how to do it. The concept is rather simple, you write code in a field to get more information than you should have access to. The methods varry but the most common is just writing something along the lines of"' or 1=1 -- "
 
+## A)
+
+First we download the challanges
+<img width="538" height="417" alt="image" src="https://github.com/user-attachments/assets/9e6a44ad-d92e-480a-9e65-5b2a0df93aab" />
+
+then we get the python3 alchemy flask.
+<img width="1271" height="432" alt="image" src="https://github.com/user-attachments/assets/03d5e602-aab8-4681-af15-efa1ba70eb8c" />
+
+Once we are in the program we can use inspect element to edit the imput type from number to string.
+
+This allows us to search for potential passwords containing the string superman. From this point on wards it is all about making sure you spell the syntax correctly. In reality you would also have to experiment with different table names to ensure you get the correct table name to print. You also need to be specific as the website only shows one pass at a time.
+<img width="2787" height="1551" alt="image" src="https://github.com/user-attachments/assets/c8d81c5e-db9f-4ec0-b170-142477855d85" />
+
+## B)
+
+I edited the python code so that it turns the pin from a string in to an int and then back to a string. this makes it crash if it recieves a string. With some error handling we could avoid the crash, but i'm too lazy.
+<img width="2765" height="1534" alt="image" src="https://github.com/user-attachments/assets/d31f1816-ce69-4b0d-a8b8-a9812669a744" />
+
+
 
 ## C)
 
