@@ -40,7 +40,7 @@ This allows us to search for potential passwords containing the string superman.
 
 ## B)
 
-I edited the python code so that it turns the pin from a string in to an int and then back to a string. this makes it crash if it recieves a string. With some error handling we could avoid the crash, but i'm too lazy.
+I edited the python code so that it turns the pin from a string in to an int and then back to a string. this makes it crash if it recieves a string. With some error handling we could avoid the crash, but as this is only a demonstration i chose the most time efficient method. This is not best practice, but it will do for this exercise,
 <img width="2765" height="1534" alt="image" src="https://github.com/user-attachments/assets/d31f1816-ce69-4b0d-a8b8-a9812669a744" />
 
 
